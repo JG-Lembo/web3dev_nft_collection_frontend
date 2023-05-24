@@ -48,7 +48,7 @@ const App = () => {
       // String, hex code of the chainId of the Rinkebey test network
       const mumbaiChainId = "0x13881";
       if (chainId !== mumbaiChainId) {
-        alert("Você não está conectado a rede Goerli de teste!");
+        alert("Você não está conectado a rede Mumbai de teste!");
       }
       setupEventListener()
     } else {
@@ -79,7 +79,7 @@ const App = () => {
       // String, hex code of the chainId of the Rinkebey test network
       const mumbaiChainId = "0x13881";
       if (chainId !== mumbaiChainId) {
-        alert("Você não está conectado a rede Goerli de teste!");
+        alert("Você não está conectado a rede Mumbai de teste!");
       }
       setupEventListener()
     } catch (error) {
